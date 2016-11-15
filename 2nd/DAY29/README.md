@@ -108,7 +108,7 @@ Ajax 비동기 통신을 위해 XHR 객체를 생성하여 사용
 ##### 리턴 결과 - Status: 200
 status
 : 100: continue  
-101: Switching Protocols
+101: Switching Protocols  
 200: OK(성공적으로 불러옴)  
 404: Client Error  
 5xx: Server Error
@@ -345,7 +345,7 @@ d = 개발용/디렉토리안에 설치
 g = 전역 설치  
 
 `webpack 파일 -o 파일 -d`
-디버깅(souremap)
+Sourcemap(디버)
 
 `webpack entry.js bundle.js`
 번들 파일로 내보내기
